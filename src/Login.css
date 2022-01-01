@@ -1,0 +1,65 @@
+.login{
+    background-color: rgb(243, 240, 234);
+    display: flex;
+    flex-direction: column;
+   height: 100vh;
+    align-items: center;
+ 
+    border: 1px solid rgb(253, 198, 198);
+    padding: 20px;
+   
+   
+}
+
+.login__container{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid lightgray;
+}
+
+
+.login> h1{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.login > form > h3 {
+    margin-bottom: 5px;
+}
+
+.login > form > input {
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+}
+
+.login>  p{
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.signinbutton{
+    background-color: #f0c14b;
+    border: 1px solid;
+    width: 100%;
+    border-radius: 2px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.signinbutton:hover{
+    background-color: #fff;
+    color: rgb(14, 13, 14)  ;
+}
+
+.newaccount{
+    border: 1px solid;
+    width: 100%;
+    border-radius: 2px;
+    height: 25px;
+}
+
